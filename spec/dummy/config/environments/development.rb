@@ -1,4 +1,4 @@
-ReimagineTest::Application.configure do
+LegacyAssetsTest::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -34,6 +34,6 @@ ReimagineTest::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
-  
+
   config.middleware.insert_after(ActionDispatch::Static, ::Rack::LiveReload)
 end

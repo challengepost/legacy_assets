@@ -1,5 +1,5 @@
-@import "reimagine/globals/mixins";
-@import "reimagine/globals/variables";
+@import "legacy_assets/globals/mixins";
+@import "legacy_assets/globals/variables";
 
 a {
   @include fade;

@@ -1,9 +1,9 @@
-require "reimagine/version"
+require "legacy_assets/version"
 require "sass"
 
-module Reimagine
+module LegacyAssets
   if defined?(Rails)
-    require "reimagine/engine"
+    require "legacy_assets/engine"
   else
     Sass.load_paths << File.expand_path("../app/assets/stylesheets", __FILE__)
     Sass.load_paths << File.expand_path("../app/assets/images", __FILE__)

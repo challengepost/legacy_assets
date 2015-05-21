@@ -1,3 +1,3 @@
-ReimagineTest::Application.routes.draw do
+LegacyAssetsTest::Application.routes.draw do
   root :to => 'styleguide#index'
 end
