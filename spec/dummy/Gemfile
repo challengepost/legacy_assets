@@ -22,7 +22,7 @@ end
 gem 'jquery-rails'
 gem 'thin'
 
-gem 'reimagine', path: "../../"
+gem 'legacy_assets', path: "../../"
 gem 'pygments.rb'
 
 group :development do

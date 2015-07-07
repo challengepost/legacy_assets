@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'reimagine/version'
+require 'legacy_assets/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "reimagine"
-  spec.version       = Reimagine::VERSION
-  spec.authors       = ["Juan C. Müller"]
-  spec.email         = ["jcmuller@gmail.com"]
-  spec.description   = %q{ChallengePost assets}
-  spec.summary       = %q{ChallengePost assets}
+  spec.name          = "legacy_assets"
+  spec.version       = LegacyAssets::VERSION
+  spec.authors       = ["The Devpost team"]
+  spec.email         = ["tech@devpost.com"]
+  spec.description   = %q{Devpost assets}
+  spec.summary       = %q{Devpost assets}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -18,7 +18,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "railties"
 

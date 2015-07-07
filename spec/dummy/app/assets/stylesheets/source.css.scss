@@ -7,7 +7,7 @@
   }
 
   p {
-    @include typekit-helper("proxima-nova-n6", normal, 600);
+    @include typekit-helper("proxima-nova-n6", 600);
     font-size: $base-font-size * 0.8125; // 13px
     color: $dark-text-color;
     text-transform: uppercase;
