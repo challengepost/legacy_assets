@@ -1,4 +1,4 @@
-@import "neat-helpers"; // or "neat-helpers" when in Rails
+// @import "neat-helpers"; // or "neat-helpers" when in Rails
 
 // Change the grid settings
 $column: 90px;
@@ -13,8 +13,8 @@ $visual-grid-color: red;
 $visual-grid-opacity: 0.1;
 
 // Define your breakpoints
-$tablet: new-breakpoint(max-width 768px 8);
-$mobile: new-breakpoint(max-width 480px 4);
+$tablet: "only screen and (max-width: 768px)";
+$mobile: "only screen and (max-width: 480px)";
 
 // $modifier-object-variable-type
 // $light-text-color

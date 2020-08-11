@@ -2,7 +2,7 @@ module LegacyAssets
   class Engine < ::Rails::Engine
     initializer :assets do |config|
       Sass.load_paths << stylesheets_path("bourbon")
-      Sass.load_paths << stylesheets_path("neat")
+      # Sass.load_paths << stylesheets_path("neat")
 
       Rails.application.config.assets.precompile += %w(legacy_assets.css)
     end
