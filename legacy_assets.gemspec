@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "sass"
   spec.add_dependency "bourbon", "3.1.6"
-  spec.add_dependency "neat"
+  spec.add_dependency "neat", "1.9.1"
 end
