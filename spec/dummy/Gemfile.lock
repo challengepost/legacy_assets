@@ -1,9 +1,9 @@
 PATH
-  remote: ../../
+  remote: ../..
   specs:
     legacy_assets (0.0.2)
       bourbon (= 3.1.6)
-      neat
+      neat (= 1.9.1)
       sass
 
 GEM
@@ -50,6 +50,7 @@ GEM
       execjs
     coffee-script-source (1.6.2)
     columnize (0.3.6)
+    concurrent-ruby (1.1.10)
     daemons (1.1.9)
     debugger (1.5.0)
       columnize (>= 0.3.1)
@@ -78,7 +79,8 @@ GEM
       multi_json (~> 1.7)
     hike (1.2.2)
     http_parser.rb (0.5.3)
-    i18n (0.6.4)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     journey (1.0.4)
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
@@ -96,9 +98,9 @@ GEM
     method_source (0.8.1)
     mime-types (1.23)
     multi_json (1.7.2)
-    neat (1.5.0)
-      bourbon (>= 2.1)
-      sass (>= 3.2)
+    neat (1.9.1)
+      sass (>= 3.3)
+      thor (~> 0.19)
     polyglot (0.3.3)
     posix-spawn (0.3.6)
     pry (0.9.12.1)
@@ -143,7 +145,7 @@ GEM
       ffi (>= 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.8)
+    sass (3.4.25)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -159,7 +161,7 @@ GEM
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
-    thor (0.18.1)
+    thor (0.20.3)
     tilt (1.3.7)
     treetop (1.4.12)
       polyglot
